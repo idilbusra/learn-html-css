@@ -1,0 +1,19 @@
+/*
+Challenge:
+Select the img tag and set the width of the Google logo to be 300px.
+*/
+img{
+    /*Challenge: 
+    Add some space (margin) above our image: 
+    Do you remember how we added spacing in the cokie widget example?
+    */
+    margin-top: 100px;
+    display: block;
+    width: 300px;
+}
+
+input{
+    display: block;
+    width: 400px;
+}
+
