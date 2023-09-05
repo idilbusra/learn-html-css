@@ -5,7 +5,11 @@ Select the img tag and set the width of the Google logo to be 300px.
 .main{
     margin-top: 100px;
 }
-img{
+
+/*
+Challenge- part 2:
+    Replace the element selectors with class sleectors */
+.logo-img{
     /*Challenge: 
     Add some space (margin) above our image: 
     Do you remember how we added spacing in the cokie widget example?
@@ -15,7 +19,7 @@ img{
     width: 300px;
 }
 
-input{
+.search-input{
     display: block;
     width: 400px;
 }
