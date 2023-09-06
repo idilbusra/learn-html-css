@@ -6,14 +6,7 @@ Select the img tag and set the width of the Google logo to be 300px.
     margin-top: 100px;
 }
 
-/*
-Challenge- part 2:
-    Replace the element selectors with class sleectors */
 .logo-img{
-    /*Challenge: 
-    Add some space (margin) above our image: 
-    Do you remember how we added spacing in the cokie widget example?
-    */
     display:block;
     width:300px;
     margin-bottom: 20px;
@@ -27,11 +20,6 @@ Challenge- part 2:
     margin-left: auto;
     margin-right: auto;
 
-    /*
-Challenge:
-Design the search field according to the spec
-*/
-
 line-height: 24px;
 padding-top: 10px;
 padding-bottom: 10px;
@@ -41,5 +29,15 @@ border: 1px solid #dfele5;
 border-radius: 24px;
 }
 
+/*
+Challenge:
+Center the button and add some space above it
+*/
 
+.btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
 
