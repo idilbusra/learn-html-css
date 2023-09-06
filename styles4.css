@@ -4,6 +4,7 @@ Select the img tag and set the width of the Google logo to be 300px.
 */
 .main{
     margin-top: 100px;
+    text-align: center ;
 }
 
 .logo-img{
