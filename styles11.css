@@ -1,10 +1,18 @@
+/*
+Challenge:
+Center the text in the <p> and <h4> elements.
+
+Note: you should only add ONE property, as inheritance 
+should take care of applying it to both elements.
+*/
+
 body {
     margin: 20px;
+    text-align: center;
 }
 
 .avatar{
     width: 150px;
-    border: 1px dotted blue;
 }
 
 .card{
@@ -13,13 +21,20 @@ body {
     margin-right: auto;
     padding: 20px
     display: flex;
-     /*
-    Challenge:
-    Add horizontal space around the flex children.
-    Hint: google "justify content"
-    */
     justify-content: space-around; /* space-around, space-between, center, end, start*/
+
+    /*
+Challenge:
+Add colors to the card according to the design.
+black-#2b2839 (the text color)
+blue - #ddebf8
+purple -#d8cefe
+*/
+backgorund: #ddebf8;
+color: #2b2839;
+border-bottom: 2px solid #d8cefe;
 }
+
 
 .border-blue{
     border: 1px dotted blue;
