@@ -1,42 +1,30 @@
-/*
-Challenge:
-Center the text in the <p> and <h4> elements.
-
-Note: you should only add ONE property, as inheritance 
-should take care of applying it to both elements.
-*/
-
 body {
     margin: 20px;
-    text-align: center;
+    /*
+    Challenge:
+    Set the font to Verdana.
+    */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.avatar{
+.avatar {
     width: 150px;
 }
 
-.card{
+.card {
     width: 400px;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px
+    padding: 20px;
     display: flex;
-    justify-content: space-around; /* space-around, space-between, center, end, start*/
-
-    /*
-Challenge:
-Add colors to the card according to the design.
-black-#2b2839 (the text color)
-blue - #ddebf8
-purple -#d8cefe
-*/
-backgorund: #ddebf8;
-color: #2b2839;
-border-bottom: 2px solid #d8cefe;
+    justify-content: space-around;
+    text-align: center;
+    background: #ddebf8;
+    color: #2b2839;
+    border-bottom: 6px solid #d8cefe;
 }
 
-
-.border-blue{
+.border-blue {
     border: 1px dotted blue;
 }
-
+    
