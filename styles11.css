@@ -1,9 +1,5 @@
 body {
     margin: 20px;
-    /*
-    Challenge:
-    Set the font to Verdana.
-    */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -13,6 +9,11 @@ body {
 
 .card {
     width: 400px;
+    /* 
+    Challenge:
+    Replace the two margin properties with a 
+    single margin shorthand.
+    */
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
@@ -27,4 +28,3 @@ body {
 .border-blue {
     border: 1px dotted blue;
 }
-    
